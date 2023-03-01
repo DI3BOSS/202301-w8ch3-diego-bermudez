@@ -1,6 +1,6 @@
-import { usersStructure } from "../types";
+import { UsersStructure } from "../types";
 
-const users: usersStructure = [
+const users: UsersStructure = [
   {
     id: 1,
     username: "johnsmith",

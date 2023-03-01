@@ -1,4 +1,4 @@
-export interface userStructure {
+export interface UserStructure {
   id: number;
   username: string;
   token: string;
@@ -7,4 +7,4 @@ export interface userStructure {
   address: string;
 }
 
-export type usersStructure = userStructure[];
+export type UsersStructure = UserStructure[];
