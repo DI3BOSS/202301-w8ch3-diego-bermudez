@@ -7,7 +7,7 @@ const userSlice = createSlice({
   initialState: initialUserState,
   reducers: {
     loggingUser: (
-      currentUserState: UserStructure,
+      currentUseState: UserStructure,
       action: PayloadAction<UserStructure>
     ) => ({ ...action.payload, isLogged: true }),
   },
